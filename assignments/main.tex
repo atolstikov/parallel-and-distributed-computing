@@ -1,0 +1,38 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[left=1cm,right=1cm,top=1cm,bottom=2cm,bindingoffset=0cm]{geometry}
+\usepackage{cmap}					% поиск в PDF
+\usepackage[english,russian]{babel}
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+
+\usepackage{natbib}
+\usepackage{esvect}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{todonotes}
+\usepackage{hyperref}
+\usepackage[stable]{footmisc}
+
+\usepackage{fontspec,xltxtra,xunicode,xecyr}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[Mapping=tex-text]{Times New Roman}
+\setmonofont[Scale=MatchLowercase]{Courier New}
+
+\author{Алексей Толстиков, Николай Александрович Лиходед}
+\title{Параллельные и распределенные вычисления\protect\\
+(подборка материалов)}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\include{block-matrix-multiplication}
+\include{cache-emulation}
+\include{fast-transpose}
+
+\end{document}
