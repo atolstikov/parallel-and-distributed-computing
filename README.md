@@ -9,3 +9,9 @@
 [Запись 2020](https://edufpmi.bsu.by/mod/url/view.php?id=21650) 
 года содержит пояснения об устройстве канальности кеша, 
 адресации и прогрузки данных из оперативной памяти.
+
+
+### Ссылки
+* What Every Programmer Should Know About Memory. Ulrich Drepper, November 21, 2007 [[PDF]](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
+* What Every Computer Scientist Should Know About Floating Point. David Goldberg
+Arithmetic [[PDF]](https://cr.yp.to/2005-590/goldberg.pdf)
